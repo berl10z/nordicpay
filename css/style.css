@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logotype
+{
+    display: flex;
+    justify-content: start;
+}
+.navbar>img{
+    width: 150px;
+    height: 150px;
+}
+.nav-link{
+    font-size: 28px;
+    color:black;
+}
+.title{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 32px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.products p{
+    text-align: center;
+}
+.product-item>img{
+    height:300px;
+    width:300px;
+}
+.advantages-items{
+    display: flex;
+    justify-content: space-around;
+}
